@@ -13,7 +13,16 @@
 		0FAC8F102481A47100F2F5D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAC8F0E2481A47100F2F5D0 /* Main.storyboard */; };
 		0FAC8F122481A47200F2F5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FAC8F112481A47200F2F5D0 /* Assets.xcassets */; };
 		0FAC8F152481A47200F2F5D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAC8F132481A47200F2F5D0 /* LaunchScreen.storyboard */; };
-		0FAC8F202481A47300F2F5D0 /* UnitTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC8F1F2481A47300F2F5D0 /* UnitTestsTests.swift */; };
+		C47A26C424868A0A00A4981F /* MyModuleModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26C324868A0A00A4981F /* MyModuleModuleTests.swift */; };
+		C47A26C824868A3300A4981F /* MyModuleInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26C724868A3300A4981F /* MyModuleInteractorTests.swift */; };
+		C47A26CA24868A4400A4981F /* MyModuleDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26C924868A4400A4981F /* MyModuleDataManagerTests.swift */; };
+		C47A26CD24868A6000A4981F /* MyModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26CC24868A6000A4981F /* MyModulePresenterTests.swift */; };
+		C47A26D124868A8100A4981F /* MyModuleMocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26D024868A8100A4981F /* MyModuleMocksTests.swift */; };
+		C47A26D324868A9700A4981F /* DummyMyModuleInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26D224868A9700A4981F /* DummyMyModuleInteractorTests.swift */; };
+		C47A26DA24868B9A00A4981F /* MyModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26D924868B9A00A4981F /* MyModulePresenter.swift */; };
+		C47A26DC24868BB000A4981F /* MyModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26DB24868BB000A4981F /* MyModuleInteractor.swift */; };
+		C47A26DE24868BBD00A4981F /* MyModuleDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26DD24868BBD00A4981F /* MyModuleDataManager.swift */; };
+		C47A26E024868BCD00A4981F /* MyModuleModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A26DF24868BCD00A4981F /* MyModuleModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +45,17 @@
 		0FAC8F142481A47200F2F5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FAC8F162481A47200F2F5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FAC8F1B2481A47300F2F5D0 /* UnitTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FAC8F1F2481A47300F2F5D0 /* UnitTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsTests.swift; sourceTree = "<group>"; };
 		0FAC8F212481A47300F2F5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47A26C324868A0A00A4981F /* MyModuleModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModuleModuleTests.swift; sourceTree = "<group>"; };
+		C47A26C724868A3300A4981F /* MyModuleInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModuleInteractorTests.swift; sourceTree = "<group>"; };
+		C47A26C924868A4400A4981F /* MyModuleDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModuleDataManagerTests.swift; sourceTree = "<group>"; };
+		C47A26CC24868A6000A4981F /* MyModulePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModulePresenterTests.swift; sourceTree = "<group>"; };
+		C47A26D024868A8100A4981F /* MyModuleMocksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModuleMocksTests.swift; sourceTree = "<group>"; };
+		C47A26D224868A9700A4981F /* DummyMyModuleInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyMyModuleInteractorTests.swift; sourceTree = "<group>"; };
+		C47A26D924868B9A00A4981F /* MyModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModulePresenter.swift; sourceTree = "<group>"; };
+		C47A26DB24868BB000A4981F /* MyModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModuleInteractor.swift; sourceTree = "<group>"; };
+		C47A26DD24868BBD00A4981F /* MyModuleDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModuleDataManager.swift; sourceTree = "<group>"; };
+		C47A26DF24868BCD00A4981F /* MyModuleModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModuleModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,7 @@
 		0FAC8F072481A47100F2F5D0 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				C47A26D424868B6800A4981F /* MyModule */,
 				0FAC8F082481A47100F2F5D0 /* AppDelegate.swift */,
 				0FAC8F0A2481A47100F2F5D0 /* SceneDelegate.swift */,
 				0FAC8F0C2481A47100F2F5D0 /* ViewController.swift */,
@@ -93,10 +112,106 @@
 		0FAC8F1E2481A47300F2F5D0 /* UnitTestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				0FAC8F1F2481A47300F2F5D0 /* UnitTestsTests.swift */,
+				C47A26C1248689F200A4981F /* MyModule */,
 				0FAC8F212481A47300F2F5D0 /* Info.plist */,
 			);
 			path = UnitTestsTests;
+			sourceTree = "<group>";
+		};
+		C47A26C1248689F200A4981F /* MyModule */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26CE24868A6400A4981F /* Utils */,
+				C47A26C624868A1A00A4981F /* Logic */,
+				C47A26C524868A1400A4981F /* UI */,
+				C47A26C2248689FC00A4981F /* Module */,
+			);
+			path = MyModule;
+			sourceTree = "<group>";
+		};
+		C47A26C2248689FC00A4981F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26C324868A0A00A4981F /* MyModuleModuleTests.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C47A26C524868A1400A4981F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26CB24868A4D00A4981F /* Presenter */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C47A26C624868A1A00A4981F /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26C724868A3300A4981F /* MyModuleInteractorTests.swift */,
+				C47A26C924868A4400A4981F /* MyModuleDataManagerTests.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		C47A26CB24868A4D00A4981F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26CC24868A6000A4981F /* MyModulePresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C47A26CE24868A6400A4981F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26D024868A8100A4981F /* MyModuleMocksTests.swift */,
+				C47A26D224868A9700A4981F /* DummyMyModuleInteractorTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C47A26D424868B6800A4981F /* MyModule */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26D724868B7B00A4981F /* UI */,
+				C47A26D624868B7700A4981F /* Logic */,
+				C47A26D524868B6E00A4981F /* Module */,
+			);
+			path = MyModule;
+			sourceTree = "<group>";
+		};
+		C47A26D524868B6E00A4981F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26DF24868BCD00A4981F /* MyModuleModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C47A26D624868B7700A4981F /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26DB24868BB000A4981F /* MyModuleInteractor.swift */,
+				C47A26DD24868BBD00A4981F /* MyModuleDataManager.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		C47A26D724868B7B00A4981F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26D824868B7E00A4981F /* Presenter */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C47A26D824868B7E00A4981F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C47A26D924868B9A00A4981F /* MyModulePresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47A26E024868BCD00A4981F /* MyModuleModule.swift in Sources */,
 				0FAC8F0D2481A47100F2F5D0 /* ViewController.swift in Sources */,
 				0FAC8F092481A47100F2F5D0 /* AppDelegate.swift in Sources */,
+				C47A26DA24868B9A00A4981F /* MyModulePresenter.swift in Sources */,
+				C47A26DC24868BB000A4981F /* MyModuleInteractor.swift in Sources */,
 				0FAC8F0B2481A47100F2F5D0 /* SceneDelegate.swift in Sources */,
+				C47A26DE24868BBD00A4981F /* MyModuleDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FAC8F202481A47300F2F5D0 /* UnitTestsTests.swift in Sources */,
+				C47A26C824868A3300A4981F /* MyModuleInteractorTests.swift in Sources */,
+				C47A26D324868A9700A4981F /* DummyMyModuleInteractorTests.swift in Sources */,
+				C47A26D124868A8100A4981F /* MyModuleMocksTests.swift in Sources */,
+				C47A26CA24868A4400A4981F /* MyModuleDataManagerTests.swift in Sources */,
+				C47A26CD24868A6000A4981F /* MyModulePresenterTests.swift in Sources */,
+				C47A26C424868A0A00A4981F /* MyModuleModuleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
